@@ -40,6 +40,9 @@ tr{
 .tozalovchi{
     background-color:#FF457B;
 }
+.result{
+    background-color: #00c753;
+}
 td{
     cursor: pointer;
 }
