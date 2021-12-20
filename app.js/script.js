@@ -3,7 +3,7 @@ var ekran = document.querySelector(".ekran")
 document.querySelectorAll('td').forEach((td) => {
     td.addEventListener('click', (e) =>{
         var belgi = e.target.innerText;
-console.log(belgi);
+
         if (belgi == "C") {
             ekran.value = '';
         } else if(belgi == "="){
