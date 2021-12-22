@@ -13,7 +13,8 @@ document.querySelectorAll('td').forEach((td) => {
             obj = ekran.value.split("")
             if (belgi == "+" || belgi == "-" || belgi == "*" || belgi == "/") {
                 for(i = 1; i < obj.length; i++){
-                    if (obj[i] == obj[i-1]) {
+                    if ((obj[i] == "+" && obj[i-1] =="+") || (obj[i] == "-" && obj[i-1] =="-") 
+                        || (obj[i] == "/" && obj[i-1] =="/") || (obj[i] == "*" && obj[i-1] =="*")) {
                         belgi = obj.pop()
                         ekran.value = obj.join('')
                     }
