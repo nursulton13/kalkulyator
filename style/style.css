@@ -42,6 +42,7 @@ tr{
 }
 .result{
     background-color: #00c753;
+    font-size: 42px;
 }
 td{
     cursor: pointer;
